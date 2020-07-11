@@ -43,6 +43,24 @@ canvas{
     vertical-align:bottom;
 }
 
+.preview{
+    border-radius: 8px;
+    background: #110f0f;
+    box-shadow:  10px 10px 20px #070606,
+                -10px -10px 20px #1b1818;
+    position: fixed;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    vertical-align: center;
+    horiz-align: center;
+    text-align: center;
+    top: 40%;
+    left: 35%;
+    color: #5a6268;
+}
+
+
 /* ---- particles.js container ---- */
 
 #particles-js{
@@ -53,4 +71,5 @@ canvas{
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    position: absolute;
 }
