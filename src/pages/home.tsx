@@ -1,20 +1,20 @@
 import React from 'react';
 
+import { PageBase } from '../components/page-base';
+
 function Home() {
   return (
-    <div className="App-header">
+    <PageBase>
       <p>
-        Edit <code>src/Nav.tsx</code> and save to reload.
+        Currently under construction...
       </p>
       <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+        href='https://reactjs.org'
+        target='_blank'
+        rel='noopener noreferrer'>
         Learn React
       </a>
-    </div>
+    </PageBase>
   );
 }
 

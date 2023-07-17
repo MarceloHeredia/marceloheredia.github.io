@@ -1,23 +1,18 @@
 import React from 'react';
 
-const divStyle = {
-  color:'white'
-};
+import { PageBase } from '../components/page-base';
 
 class About extends React.Component {
-
   render() {
     return (
-      <div className="App-header" style={divStyle}>
+      <PageBase>
         <h2>About Page</h2>
         <div>
           <p>This section contains information about...</p>
         </div>
-      </div>
-    )
+      </PageBase>
+    );
   }
 }
-
-
 
 export default About;
