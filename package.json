@@ -30,7 +30,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "test": "jest --coverage",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "browserslist": {
