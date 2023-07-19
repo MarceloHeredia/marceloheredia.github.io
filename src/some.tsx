@@ -6,7 +6,7 @@ import About from '../pages/about';
 import Home from '../pages/home';
 import NotFound from '../pages/not-found';
 
-function Nav() {
+function Navan() {
   return (
     <>
       <NavigationDrawer/>
@@ -19,4 +19,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navan;
